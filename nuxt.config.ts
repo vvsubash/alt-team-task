@@ -8,6 +8,9 @@ export default defineNuxtConfig({
       './store/**s'
     ]
   },
+  i18n: {
+    vueI18n: './i18n.config.ts'
+  },
   app: {
     head: {
       link: [
