@@ -2,9 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
-  modules: [
-    '@pinia/nuxt'
-  ],
+  modules: ['@pinia/nuxt', "@nuxtjs/i18n"],
   pinia: {
     storesDirs: [
       './store/**s'
